@@ -1,0 +1,108 @@
+
+<!DOCTYPE >
+
+<html>
+    <head>
+        <title>A Tile Map Editor</title>
+        <script src="jquery-1.6.2.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="jquery-ui-1.8.16.custom.min.js" type="text/javascript" charset="utf-8"></script>
+</head>
+
+<script>
+    $(document).ready(function(){
+        mp.init();
+        })
+    mp.init = function(){
+        mp.create.navigation();
+    };
+    var mp={};
+//Application function---------------------------------------------------------------------------------------------------
+//function ElementExists(Element){
+//	return Element.length>0;
+//}
+//mp.initialiseDesign = function(){
+//    mp.design.navigationHeight = ElementExists($('.Navigation'))? $('.Navigation').height():0;//当存在navigation时输出它的长度，否则输出0
+ //   mp.design.ProjectOrganizerHeight = ElementExists($('.ProjectOrganizer'))? $('.ProjectOrganizer').height():0;
+    //mp.design.paletteWith = 0;待定
+    //mp.design.toolbarWith = 0;待定
+//}         
+//Create html--------------------------------------------------------------------------------------------------------------
+mp.create={};
+mp.create.navigation = function(){
+    function toolbar(){
+    var html='';
+    '<div class="Navigation">';
+    html +=  '<li class="MenuItem"><a href="#" onclick="mp.project.createNewButton()"  class="Button">New Project</a></li>';  
+	html += "</div>";
+    return html
+}
+//prompt-------------------------------------------------------------------------
+mp.prompt=function(qObject, callback, text){
+    mp.promptCancel()
+    var html = '<div class="PromptBox">';
+	html += '<span class="PromptBoxTitle">' + text + '</span>';
+	html += '<form>';
+	html += '<table class="PromptForm">';
+	$.each(qObject, function(key, value) {
+		html += '<tr><td class="PromptKey">'+key+'</td><td><input type="text" name="'+key+'" value="'+value+'"/></td></tr>';
+	});
+	html += '</table>';
+	html += '</form>';
+	html += '<a href="#" onclick="'+callback+'" class="Button">OK</a>';
+	html += '<a href="#" onclick="_mp.promptCancel()" class="Button">Cancel</a>';
+	html += "</div>";
+	$("body").append(html);
+}//wrong？
+mp.promptCancel = function(){
+	if(ElementExists($('.PromptBox'))){
+		$('.PromptBox').remove();
+	}
+}
+mp.getPromptResults = function(){
+	if(ElementExists($('.PromptBox'))){
+		var PromptResult = 'PromptResult = {';
+		if(ElementExists($('.PromptForm'))){
+			var trArray = $('.PromptForm').find("input");
+			for(var i=0; i< trArray.length; i++){
+				var name = $(trArray[i]).attr("name");
+				var value = $(trArray[i]).attr("value");
+				var evilString = name.split(" ");
+				var stringType = evilString.pop();
+				evilString = evilString.join('');
+				var isString = stringType==="(String)"?"'":"";
+				PromptResult += evilString + ' : ' + isString + value + isString + ', ';
+			}
+		}
+		PromptResult = PromptResult.slice(0, -2) + '}';
+		eval(PromptResult);
+		_mp.promptCancel();
+		return PromptResult;
+	}
+}
+//Project ---------------------------------------------------------------------------------------------------------------
+mp.project={};
+mp.project.creatNewButton = function(){
+    mp.prompt({"Project Name(String)":"New Project","Tile Size(Int)":64, "Tile Set Tile Count (Int)":256,"Tile Set Url (String)":"./javascript/images/tile-game-1.png","Air Tile(Int)":0 },"mp.project.createNew()", "Warning! This Replaces The Current Project.");
+}
+mp.project.creatNew = function(ProjectName,TileSize,TileSetTileCount,TileSetUrl,AirTile){
+    var promptResults = mp.getPromptResults();
+    if(promptResults){
+        ProjectName=promptResults.ProjectName;
+        TileSize = promptResults.TileSize;
+        TileSetTileCount = promptResults.TileSetTileCount;
+        TileSetUrl = promptResults.TileSetUrl;
+        AirTile =  promptResults.AirTile;
+    }
+    mp.currentProject = {
+        name: ProjectName,
+        tileSize:TileSize,
+        tileSetTileCount: TileSetTileCount,
+        tileSetUrl: TileSetUrl,
+        brusTile:1,
+        airTile:AirTile,
+        levelArray:[],
+    }
+    mp.initialiseDesign();
+}
+</script>
+</html>
