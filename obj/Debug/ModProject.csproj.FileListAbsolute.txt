@@ -1,0 +1,10 @@
+E:\TatfookNPL\ParaCraftSDK\ParaCraftSDK-master\_mod\Test - 副本\bin\Debug\HelloWorld.dll
+E:\TatfookNPL\ParaCraftSDK\ParaCraftSDK-master\_mod\Test - 副本\bin\Debug\HelloWorld.pdb
+E:\TatfookNPL\ParaCraftSDK\ParaCraftSDK-master\_mod\Test - 副本\obj\Debug\ModProject.csprojResolveAssemblyReference.cache
+E:\TatfookNPL\ParaCraftSDK\ParaCraftSDK-master\_mod\Test - 副本\obj\Debug\HelloWorld.dll
+E:\TatfookNPL\ParaCraftSDK\ParaCraftSDK-master\_mod\Test - 副本\obj\Debug\HelloWorld.pdb
+D:\TatfookNPL\ParaCraftSDK\ParaCraftSDK-master\_mod\Test - 副本\bin\Debug\HelloWorld.dll
+D:\TatfookNPL\ParaCraftSDK\ParaCraftSDK-master\_mod\Test - 副本\bin\Debug\HelloWorld.pdb
+D:\TatfookNPL\ParaCraftSDK\ParaCraftSDK-master\_mod\Test - 副本\obj\Debug\HelloWorld.dll
+D:\TatfookNPL\ParaCraftSDK\ParaCraftSDK-master\_mod\Test - 副本\obj\Debug\HelloWorld.pdb
+D:\TatfookNPL\ParaCraftSDK\ParaCraftSDK-master\_mod\Test - 副本\obj\Debug\ModProject.csprojResolveAssemblyReference.cache

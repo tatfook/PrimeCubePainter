@@ -1,0 +1,433 @@
+NPL bin dir: D:\TatfookNPL\ParaCraftSDK\ParaCraftSDK-master\_mod\Test - ¸±±¾\..\..\redist\
+no packages at: D:\TatfookNPL\ParaCraftSDK\ParaCraftSDK-master\_mod\Test - ¸±±¾\..\..\packages
+WorkingDir: D:\TatfookNPL\ParaCraftSDK\ParaCraftSDK-master\redist
+Development directory is set to : D:/TatfookNPL/ParaCraftSDK/ParaCraftSDK-master/_mod/Test - ¸±±¾/
+OS information:
+OS version:Microsoft  (build 9200), 64-bit
+Number of processors:4
+Processor type:586
+TotalPhysicalMemory:4079980
+FreePhysicalMemory:816608
+
+ParaEngine Root Dir is D:/TatfookNPL/ParaCraftSDK/ParaCraftSDK-master/redist/
+Archive: main_mobile_res.pkg is opened and read 613 entries
+Archive: main150727.pkg is opened and read 2678 entries
+Archive: main.pkg is opened and read 7536 entries
+./packages dir: D:/TatfookNPL/ParaCraftSDK/ParaCraftSDK-master/redist/
+main loop: script/apps/Aries/main_loop.lua 
+Asset manifest file assets_manifest.txt is loaded
+CAssetManifest loaded 48199 files
+CAsyncLoader is started with 1 IO thread and 2 worker thread
+Absolute path is used for dll: D:\TatfookNPL\ParaCraftSDK\ParaCraftSDK-master\redist\PhysicsBT.dll
+Plug-in loaded: PhysicsBT.dll version: 1 
+Default window thread started. and a window is created in it
+Window is native: 3d window: 4705cc, top level: 4705cc
+DEBUG: main thread wnd handle : 4654540
+update d3d window size: width: 960, height:560, left:104, top:104
+Best full screen mode is (1280, 600)
+Window is native: 3d window: 4705cc, top level: 4705cc
+Absolute path is used for dll: D:\TatfookNPL\ParaCraftSDK\ParaCraftSDK-master\redist\cAudioEngine.dll
+Plug-in loaded: cAudioEngine.dll version: 1 
+Available Audio Playback Devices: 
+0 : Generic Software on æ‰¬å£°å™¨/å¬ç­’ (Realtek Audio) [DEFAULT]
+font Tahoma;12;bold is created 
+font Tahoma;12;norm is created 
+Graphics Stats:
+HAL (pure hw vp): Intel(R) HD Graphics Family|
+VS:3 PS:3
+ParaEngine LuaJIT 32bits version:LuaJIT 2.0.3
+Jit status:true, CMOV, SSE2, SSE3, SSE4.1, fold, cse, dce, fwd, dse, narrow, loop, abc, sink, fuse 
+ffi loaded shared lib: ParaEngineClient
+2017-08-07 5:47:39 5292750||system|os|hook cm_m_down_hook of type 1 is created
+2017-08-07 5:47:39 5292750||system|os|hook cm_m_move_hook of type 1 is created
+2017-08-07 5:47:39 5292750||system|os|hook cm_m_wheel_hook of type 1 is created
+2017-08-07 5:47:39 5292750||system|os|hook cm_m_up_hook of type 1 is created
+2017-08-07 5:47:39 5292750||system|os|hook cm_keydown of type 1 is created
+WARN:unable to load rule mapping from rule file script/AI/animations/mount.rules.table
+2017-08-07 5:47:39 5292796|main|warn|REST|RPC paraworld.users.GetNIDByOtherAccountID is overriden by GameServer.rest.client.CreateRPCWrapper. Remove duplicate calls with the same name.
+IPC debugger started in NPL state main: queue name NPLDebug
+2017-08-07 5:47:39 5292812|main|info|language|config/language.txt is not found
+2017-08-07 5:47:39 5292812|main|info|language|UI locale set to: zhCN. system default is zhCN
+2017-08-07 5:47:39 5292812|main|info|TranslationGettext|load mo file config/Aries/creator/language/paracraft_zhCN.mo with 1 entries
+2017-08-07 5:47:39 5292812|main|debug|cur_url|
+2017-08-07 5:47:39 5292812|main|info|Log|log level is set to debug
+2017-08-07 5:47:39 5292812|main|info|AssetManifest|use local file first
+INFO:game default locale : zhCN
+2017-08-07 5:47:39 5292812||system|aries|Asset server: http://update.61.com/haqi/assetupdate/
+2017-08-07 5:47:39 5292812||system|aries|Chat server domain: tm.test.pala5.cn
+2017-08-07 5:47:39 5292812||system|aries|Web domain: test.pala5.cn
+2017-08-07 5:47:39 5292812||system|aries|Log server: http://tmlog.paraengine.com
+2017-08-07 5:47:39 5292812||system|aries|File server: http://tmland.paraengine.com
+2017-08-07 5:47:39 5292812||system|aries|Login news page: http://tmlog.paraengine.com/HaqiNewsPage.php
+2017-08-07 5:47:39 5292812||system|IME|use the default IME window when in windowed mode
+database:Database/apps.db opened
+Absolute path is used for dll: D:\TatfookNPL\ParaCraftSDK\ParaCraftSDK-master\redist\sqlite.dll
+LibInitParaEngine in sqlite.cpp
+Plug-in loaded: sqlite.dll version: 1 
+application database has 4 installed apps
+2017-08-07 5:47:39 5292812||system|app|app "WebBrowser" loaded
+2017-08-07 5:47:39 5292812||system|app|app "worlds" loaded
+2017-08-07 5:47:39 5292812||system|os|hook Debug of type 1 is created
+2017-08-07 5:47:39 5292812||system|app|app "Debug" loaded
+2017-08-07 5:47:39 5292828||system|app|app "Creator" loaded
+2017-08-07 5:47:39 5292828||system|events|System.ReBindEventHandlers called
+font Tahoma;18;bold is created 
+2017-08-07 5:47:39 5292828||system|mcml|register mc related mcml tags
+font Tahoma;14;norm is created 
+font Tahoma;14;bold is created 
+2017-08-07 5:47:39 5292875||system|app|app "Aries" loaded
+2017-08-07 5:47:39 5292875||system|mcml|register Aries related mcml tags
+2017-08-07 5:47:39 5292906||system|Login|=====>Login Stage: CheckGraphicsSettings
+2017-08-07 5:47:39 5292906||system|Login|=====>Login Stage: LoadBackground3DScene
+client version is 0.7.320
+2017-08-07 5:47:39 5292921||system|Login|=====>Login Stage: CheckCommandLine
+2017-08-07 5:47:39 5292921|main|info|Url protocol|paracraft:// is "D:\TatfookNPL\ParaCraftSDK\ParaCraftSDK-master\redist\ParaEngineClient.exe" mc="true" %1
+2017-08-07 5:47:39 5292921||system|Login|=====>Login Stage: LoadPackages
+Archive: npl_packages\ParacraftBuildinMod.zip is opened and read 259 entries
+2017-08-07 5:47:39 5292937||system|Login|=====>Login Stage: ShowLoginModePage
+2017-08-07 5:47:40 5293375||system|event|Connection is disconnected with ~64
+2017-08-07 5:47:40 5293375||system|event|Connection is disconnected with ~63
+2017-08-07 5:47:42 5295203||system|Login|=====>Login Stage: LoadPlugins
+2017-08-07 5:47:42 5295218|main|info|Test|plugin initialized
+2017-08-07 5:47:42 5295218|main|info|DemoItem|init
+2017-08-07 5:47:42 5295218|main|info|DemoGUI|init
+2017-08-07 5:47:42 5295218|main|info|DemoEntity|init
+2017-08-07 5:47:42 5295218|main|info|DemoCommand|init
+2017-08-07 5:47:42 5295218|main|info|PluginManager|mod: Test (Test) is added
+warning: script file script/ide/math/BlockDirection.lua not found
+2017-08-07 5:47:42 5295218|main|info|ParaXExporter|plugin initialized
+2017-08-07 5:47:42 5295218|main|info|PluginManager|mod: ParaXExporter (ParaXExporter) is added
+2017-08-07 5:47:42 5295218|main|info|NPLCAD|plugin initialized
+2017-08-07 5:47:42 5295218|main|info|PluginManager|mod: NPLCAD (NPLCAD) is added
+2017-08-07 5:47:42 5295218|main|info|STLExporter|plugin initialized
+2017-08-07 5:47:42 5295218|main|info|PluginManager|mod: STLExporter (STLExporter) is added
+warning: script file Mod/WorldShare/services/HttpRequest.lua not found
+2017-08-07 5:47:42 5295234|main|info|PluginManager|mod: WorldShare (WorldShare) is added
+2017-08-07 5:47:42 5295234||system|Login|=====>Login Stage: HasInitedTexture
+2017-08-07 5:47:42 5295234|main|info|TexturePackageList|LoadTexturePackageList
+database:Database/userdata.db opened
+2017-08-07 5:47:42 5295234||system|localserver|localserver: Database/userdata.db is opened
+2017-08-07 5:47:42 5295234||debug|localserver|force flush called for Database/userdata.db
+2017-08-07 5:47:42 5295234|main|info|TexturePackageList|TexturePackageList initialized
+Unexpired local version is used for http://www.paraengine.com/twiki/bin/view/CCWeb/RecommendedTextureListData
+2017-08-07 5:47:42 5295234||system|Login|=====>Login Stage: LoadMainWorld
+database:Database/creator_profile.db opened
+2017-08-07 5:47:42 5295250||system|localserver|localserver: Database/creator_profile.db is opened
+2017-08-07 5:47:42 5295250||debug|localserver|force flush called for Database/creator_profile.db
+2017-08-07 5:47:42 5295281|main|debug|block_template|25 templates loaded
+2017-08-07 5:47:42 5295281|main|info|DemoItem|a new block is registered
+2017-08-07 5:47:42 5295281|main|info|NPLCAD|NPL CAD block is registered
+2017-08-07 5:47:42 5295312|main|info|block_types|loaded file from config/Aries/creator/block_types.xml
+CRenderTarget: _miniscenegraph_AvatarMyselfTabCharacter render target renewed (256 256)
+font Tahoma;16;norm is created 
+2017-08-07 5:47:50 5303359||system|event|Connection is disconnected with ~66
+2017-08-07 5:47:50 5303359||system|event|Connection is disconnected with ~65
+2017-08-07 5:48:00 5313375||system|event|Connection is disconnected with ~68
+2017-08-07 5:48:00 5313375||system|event|Connection is disconnected with ~67
+program exited with code 0
+Default window thread exit
+error: CNPLNetServer unable to accept incoming connection, because: ÓÉÓÚÏß³ÌÍË³ö»òÓ¦ÓÃ³ÌÐòÇëÇó£¬ÒÑÖÐÖ¹ I/O ²Ù×÷¡£
+current connections 0
+NPL State main exited
+sql db closed: Database/creator_profile.db
+sql db closed: Database/userdata.db
+sql db closed: Database/apps.db
+		NPL thread local memory allocator released 22872064 bytes
+CAsyncLoader worker thread 0 of 6 is exited
+CAsyncLoader worker thread 1 of 6 is exited
+CAsyncLoader worker thread 2 of 6 is exited
+CAsyncLoader worker thread 3 of 6 is exited
+CAsyncLoader worker thread 4 of 6 is exited
+CAsyncLoader worker thread 5 of 6 is exited
+CAsyncLoader IO thread is exited
+warning: in ParaEngine::CFileSystemWatcher::FileHandler. msg is ÓÉÓÚÏß³ÌÍË³ö»òÓ¦ÓÃ³ÌÐòÇëÇó£¬ÒÑÖÐÖ¹ I/O ²Ù×÷¡£
+FileSystemWatcher removed
+[string "script/apps/Aries/Creator/Game/Login/InternetLoadWorld.lua"]:384: attempt to index local 'urlObj' (a nil value) <Runtime error>
+Error in sCode:id=250;mouse_button="left";mouse_x=858;mouse_y=120;__onuievent__(250, "onclick");
+camera attribute object refreshed 
+unable to prepare wave file 
+2017-08-07 5:48:09 5322781|main|info|Test|Mod test on leave world
+2017-08-07 5:48:09 5322781|main|info|PlayerAssetFile|44 assets loaded from config/Aries/creator/PlayerAssetFile.xml
+2017-08-07 5:48:09 5322781|main|info|PlayerSkins|38 skins loaded from config/Aries/creator/PlayerSkins.xml
+2017-08-07 5:48:09 5322781||system|PostLog|{ver="kids",action="mc_enter_world",nid=0,}
+2017-08-07 5:48:09 5322781|main|debug|GameStart|File.EnterAriesWorld
+2017-08-07 5:48:09 5322781|main|debug|Game.loadworld_params|{worldpath="worlds/DesignHouse/Ä¬ÈÏÃû×Ö2",name="mcworld",tag="MCWorld",}
+2017-08-07 5:48:09 5322781|main|info|Aries|Forcing standalone mode since user is not connected. 
+2017-08-07 5:48:09 5322781|main|debug|LoadWorld_stage_change|{}
+2017-08-07 5:48:09 5322843|main|error|RPC|paraworld.PostLog returns an error CURLCode
+{header="HTTP/1.1 100 Continue\r\n\r\nHTTP/1.1 404 Not Found\r\nDate: Sun, 06 Aug 2017 21:48:09 GMT\r\nServer: Apache/2.4.10 (Debian) mod_mono/3.12\r\nContent-Length: 310\r\nContent-Type: text/html; charset=iso-8859-1\r\n\r\n",rcode=404,data="<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL /APIs/PostLog was not found on this server.</p>\n<hr>\n<address>Apache/2.4.10 (Debian) mod_mono/3.12 Server at tmlog.paraengine.com Port 80</address>\n</body></html>\n",code=0,}|@script/kids/3DMapSystemApp/API/webservice_wrapper.lua:169: in function callbackFunc
+2017-08-07 5:48:09 5322843||warning|PostLog|post log failed. we may retry 3 times
+|script/kids/3DMapSystemApp/API/paraworld.auth.lua:335: in function postFunc
+2017-08-07 5:48:09 5322906|main|debug|LoadWorld_stage_change|{preworld_loader="done",}
+2017-08-07 5:48:09 5322906|main|debug|LoadWorld_stage_change|{preworld_loader="done",loader_asset_list="done",}
+2017-08-07 5:48:09 5322906||debug|audio|remove all sounds
+2017-08-07 5:48:09 5322906|main|info|LoadWorld|real terrain is totally disabled for block world
+2017-08-07 5:48:09 5322906|main|info|ParaSandBox.reset|new sandbox created.
+warning: you are deleting an entity _miniscenegraph_AvatarMyselfTabCharacter whose has unreleased external references
+scene has been reset
+FileIO Error: hr = 80004005; key=_miniscenegraph_AvatarMyselfTabCharacter; filename=
+Global terrain engine disabled hence worlds/DesignHouse/Ä¬ÈÏÃû×Ö2/worldconfig.txt is ignored.
+database:worlds\DesignHouse\Ä¬ÈÏÃû×Ö2\attribute.db opened
+database:worlds\DesignHouse\Ä¬ÈÏÃû×Ö2\NPC.db opened
+camera attribute object refreshed 
+2017-08-07 5:48:09 5322953||system|events|System.ReBindEventHandlers called
+font Tahoma;13;bold is created 
+2017-08-07 5:48:09 5322953||system|os|hook GameMsgHook of type 2 is created
+echo:"load world 90% before render:----->5322953"
+echo:"load world 90% after render:----->5322953"
+2017-08-07 5:48:09 5322953|main|debug|LoadWorld_stage_change|{preworld_loader="done",loadworld_immediate="done",loader_asset_list="done",}
+2017-08-07 5:48:09 5322953|main|debug|LoadWorld_stage_change|{preworld_loader="done",loader_asset_list="done",loadworld_immediate="done",pre_login_motion_file="done",}
+2017-08-07 5:48:09 5322953|main|debug|LoadWorld_stage_change|{loader_asset_list="done",set_initial_player_position="done",pre_login_motion_file="done",preworld_loader="done",loadworld_immediate="done",}
+2017-08-07 5:48:09 5322953||system|REST|rest keep alive is started. interval is 20 seconds
+echo:"load world 99%:----->5322953"
+2017-08-07 5:48:09 5322953|main|debug|LoadWorld_stage_change|{loader_asset_list="done",set_initial_player_position="done",pre_login_motion_file="done",preworld_loader="done",loadworld_immediate="done",connect_world="done",}
+2017-08-07 5:48:09 5322953|main|debug|LoadWorld_stage_change|{loader_asset_list="done",set_initial_player_position="done",pre_login_motion_file="done",preworld_loader="done",play_loader_movie="done",loadworld_immediate="done",connect_world="done",}
+2017-08-07 5:48:09 5322953|main|debug|LoadWorld_stage_change|{loader_asset_list="done",play_loader_movie="done",set_initial_player_position="done",pre_login_motion_file="done",preworld_loader="done",play_cg_movie="done",loadworld_immediate="done",connect_world="done",}
+2017-08-07 5:48:09 5322953|main|info|UserProfile|UserLoginProcess for nid 0
+2017-08-07 5:48:09 5322953|main|info|APISandbox|cleaned up sandbox scripting environment
+warn: model: model/blockworld/StairsWood/StairsWood_corner.x is not coplanar. this will cost 4 times more memory. 
+warn: model: model/blockworld/StairsWood/StairsWood.x is not coplanar. this will cost 4 times more memory. 
+warn: model: model/blockworld/StairsWood/StairsWood_reverse_corner.x is not coplanar. this will cost 4 times more memory. 
+warn: model: model/blockworld/Bone/Bone.x is not coplanar. this will cost 4 times more memory. 
+2017-08-07 5:48:09 5323000|main|info|block_types|registering 259 block templates
+2017-08-07 5:48:09 5323000|main|info|GameLogic|remote_world:false, server_world: false
+2017-08-07 5:48:09 5323000|main|system|SlashCommand|all system commands registered
+Enter Block World  : max region cache 9
+2017-08-07 5:48:09 5323015|main|system|GameLogic|loading block world for worlds/DesignHouse/Ä¬ÈÏÃû×Ö2/
+2017-08-07 5:48:09 5323015|main|info|ItemClient|loaded block list category from file config/Aries/creator/block_list.xml
+2017-08-07 5:48:09 5323031|main|info|Translation|language translation zhCN defaults to zhCN
+2017-08-07 5:48:09 5323031|main|info|TexturePackage|texturepackage worlds/BlockTextures/official/Paracraft32xMixed_r1.zip already exist locally
+2017-08-07 5:48:09 5323031|main|info|TexturePackage|open texture package: worlds/BlockTextures/official/Paracraft32xMixed_r1.zip
+Archive: worlds\BlockTextures\official\Paracraft32xMixed_r1.zip is opened and read 120 entries
+2017-08-07 5:48:09 5323031|main|info|TexturePackage|Parent folder: worlds/BlockTextures/official/paracraft32xmixed
+2017-08-07 5:48:09 5323031|main|info|TexturePackage|apply texture package: Paracraft32xMixed_r1.zip (119 textures)
+2017-08-07 5:48:09 5323031|main|info|WeatherEffect|CWeatherEffect created and added to scene
+2017-08-07 5:48:09 5323046|main|info|options|actual render dist is set to 96
+sql db closed: worlds\DesignHouse\Ä¬ÈÏÃû×Ö2\attribute.db
+sql db closed: worlds\DesignHouse\Ä¬ÈÏÃû×Ö2\NPC.db
+FileSystemWatcher: default created
+FileSystemWatcher default begins monitoring all files in worlds/DesignHouse/Ä¬ÈÏÃû×Ö2/
+2017-08-07 5:48:09 5323046|main|info|game.filewatcher|file monitor created for worlds/DesignHouse/Ä¬ÈÏÃû×Ö2/
+2017-08-07 5:48:09 5323046|main|info|Test|Mod test on world loaded
+2017-08-07 5:48:09 5323046|main|info|ModManager|plugins (mods) loaded in world
+2017-08-07 5:48:09 5323046|main|system|GameLogic|Game Logics is initialized for the current world
+2017-08-07 5:48:09 5323062||system|os|hook CreatorDesktopOnSizeHook of type 1 is created
+2017-08-07 5:48:09 5323062|main|info|SceneContextManager|new context: base registered
+2017-08-07 5:48:09 5323062|main|info|SceneContextManager|new context: play registered
+2017-08-07 5:48:09 5323062|main|info|SceneContextManager|new context: edit registered
+2017-08-07 5:48:09 5323062|main|info|SceneContextManager|new context: movie registered
+2017-08-07 5:48:09 5323078|main|info|SceneContextManager|new context: tutorial registered
+2017-08-07 5:48:09 5323078|main|info|SceneContextManager|new context: MyDefaultSceneContext registered
+2017-08-07 5:48:09 5323078|main|system|GameDesktop|OnActivateDesktop editor
+2017-08-07 5:48:09 5323078|main|info|Game|Game.OnLogin finished
+Load region: 37 37, total regions: 0
+Block loading region 37 37 in Async mode
+warning: ParaX model file not found 
+Failed to Copy Data to Device Object:hr = 80004005; 
+2017-08-07 5:48:09 5323093|main|debug|GenerateChunk|chunk 1200 1200
+2017-08-07 5:48:09 5323093|main|debug|GenerateChunk|chunk 1200 1201
+2017-08-07 5:48:09 5323093|main|debug|GenerateChunk|chunk 1200 1199
+2017-08-07 5:48:09 5323093|main|debug|GenerateChunk|chunk 1201 1200
+2017-08-07 5:48:09 5323093|main|debug|GenerateChunk|chunk 1199 1200
+2017-08-07 5:48:09 5323093|main|debug|GenerateChunk|chunk 1200 1202
+2017-08-07 5:48:09 5323093|main|debug|GenerateChunk|chunk 1200 1198
+2017-08-07 5:48:09 5323093|main|debug|GenerateChunk|chunk 1201 1201
+2017-08-07 5:48:09 5323093|main|debug|GenerateChunk|chunk 1201 1199
+2017-08-07 5:48:09 5323093|main|debug|GenerateChunk|chunk 1199 1201
+2017-08-07 5:48:09 5323093|main|debug|GenerateChunk|chunk 1199 1199
+2017-08-07 5:48:09 5323093|main|debug|GenerateChunk|chunk 1201 1202
+2017-08-07 5:48:09 5323093|main|debug|GenerateChunk|chunk 1201 1198
+2017-08-07 5:48:09 5323093|main|debug|GenerateChunk|chunk 1199 1202
+2017-08-07 5:48:09 5323093|main|debug|GenerateChunk|chunk 1199 1198
+2017-08-07 5:48:09 5323109|main|debug|GenerateChunk|chunk 1202 1200
+2017-08-07 5:48:09 5323109|main|debug|GenerateChunk|chunk 1198 1200
+2017-08-07 5:48:09 5323109|main|debug|GenerateChunk|chunk 1202 1201
+2017-08-07 5:48:09 5323109|main|debug|GenerateChunk|chunk 1202 1199
+2017-08-07 5:48:09 5323109|main|debug|GenerateChunk|chunk 1198 1201
+2017-08-07 5:48:09 5323109|main|debug|GenerateChunk|chunk 1198 1199
+2017-08-07 5:48:09 5323109|main|debug|GenerateChunk|chunk 1200 1203
+2017-08-07 5:48:09 5323109|main|debug|GenerateChunk|chunk 1200 1197
+2017-08-07 5:48:09 5323109|main|debug|GenerateChunk|chunk 1201 1203
+2017-08-07 5:48:09 5323109|main|debug|GenerateChunk|chunk 1201 1197
+2017-08-07 5:48:09 5323109|main|debug|GenerateChunk|chunk 1199 1203
+2017-08-07 5:48:09 5323109|main|debug|GenerateChunk|chunk 1199 1197
+2017-08-07 5:48:09 5323109|main|debug|GenerateChunk|chunk 1202 1202
+2017-08-07 5:48:09 5323109|main|debug|GenerateChunk|chunk 1202 1198
+2017-08-07 5:48:09 5323109|main|debug|GenerateChunk|chunk 1198 1202
+2017-08-07 5:48:09 5323109|main|debug|GenerateChunk|chunk 1198 1198
+2017-08-07 5:48:09 5323109|main|debug|GenerateChunk|chunk 1203 1200
+2017-08-07 5:48:09 5323109|main|debug|GenerateChunk|chunk 1197 1200
+2017-08-07 5:48:09 5323109|main|debug|GenerateChunk|chunk 1203 1201
+2017-08-07 5:48:09 5323109|main|debug|GenerateChunk|chunk 1203 1199
+2017-08-07 5:48:09 5323109|main|debug|GenerateChunk|chunk 1197 1201
+2017-08-07 5:48:09 5323109|main|debug|GenerateChunk|chunk 1197 1199
+2017-08-07 5:48:09 5323109|main|debug|GenerateChunk|chunk 1200 1204
+2017-08-07 5:48:09 5323109|main|debug|GenerateChunk|chunk 1200 1196
+2017-08-07 5:48:09 5323109|main|debug|GenerateChunk|chunk 1201 1204
+2017-08-07 5:48:09 5323109|main|debug|GenerateChunk|chunk 1201 1196
+2017-08-07 5:48:09 5323109|main|debug|GenerateChunk|chunk 1199 1204
+2017-08-07 5:48:09 5323109|main|debug|GenerateChunk|chunk 1199 1196
+2017-08-07 5:48:09 5323109|main|debug|GenerateChunk|chunk 1202 1203
+2017-08-07 5:48:09 5323109|main|debug|GenerateChunk|chunk 1202 1197
+2017-08-07 5:48:09 5323109|main|debug|GenerateChunk|chunk 1198 1203
+2017-08-07 5:48:09 5323109|main|debug|GenerateChunk|chunk 1198 1197
+2017-08-07 5:48:09 5323125|main|debug|GenerateChunk|chunk 1203 1202
+2017-08-07 5:48:09 5323125|main|debug|GenerateChunk|chunk 1203 1198
+2017-08-07 5:48:09 5323125|main|debug|GenerateChunk|chunk 1197 1202
+2017-08-07 5:48:09 5323125|main|debug|GenerateChunk|chunk 1197 1198
+2017-08-07 5:48:09 5323125|main|debug|GenerateChunk|chunk 1203 1203
+2017-08-07 5:48:09 5323125|main|debug|GenerateChunk|chunk 1203 1197
+2017-08-07 5:48:09 5323125|main|debug|GenerateChunk|chunk 1197 1203
+2017-08-07 5:48:09 5323125|main|debug|GenerateChunk|chunk 1197 1197
+2017-08-07 5:48:09 5323125|main|debug|GenerateChunk|chunk 1204 1200
+2017-08-07 5:48:09 5323125|main|debug|GenerateChunk|chunk 1196 1200
+2017-08-07 5:48:09 5323125|main|debug|GenerateChunk|chunk 1204 1201
+2017-08-07 5:48:09 5323125|main|debug|GenerateChunk|chunk 1204 1199
+2017-08-07 5:48:09 5323125|main|debug|GenerateChunk|chunk 1196 1201
+2017-08-07 5:48:09 5323125|main|debug|GenerateChunk|chunk 1196 1199
+2017-08-07 5:48:09 5323125|main|debug|GenerateChunk|chunk 1204 1202
+2017-08-07 5:48:09 5323125|main|debug|GenerateChunk|chunk 1204 1198
+2017-08-07 5:48:09 5323125|main|debug|GenerateChunk|chunk 1196 1202
+2017-08-07 5:48:09 5323125|main|debug|GenerateChunk|chunk 1196 1198
+2017-08-07 5:48:09 5323125|main|debug|GenerateChunk|chunk 1200 1205
+2017-08-07 5:48:09 5323125|main|debug|GenerateChunk|chunk 1200 1195
+2017-08-07 5:48:09 5323125|main|debug|GenerateChunk|chunk 1201 1205
+2017-08-07 5:48:09 5323125|main|debug|GenerateChunk|chunk 1201 1195
+2017-08-07 5:48:09 5323125|main|debug|GenerateChunk|chunk 1199 1205
+2017-08-07 5:48:09 5323125|main|debug|GenerateChunk|chunk 1199 1195
+2017-08-07 5:48:09 5323125|main|debug|GenerateChunk|chunk 1202 1204
+2017-08-07 5:48:09 5323125|main|debug|GenerateChunk|chunk 1202 1196
+2017-08-07 5:48:09 5323125|main|debug|GenerateChunk|chunk 1198 1204
+2017-08-07 5:48:09 5323125|main|debug|GenerateChunk|chunk 1198 1196
+2017-08-07 5:48:09 5323125|main|debug|GenerateChunk|chunk 1202 1205
+2017-08-07 5:48:09 5323125|main|debug|GenerateChunk|chunk 1202 1195
+2017-08-07 5:48:09 5323125|main|debug|GenerateChunk|chunk 1198 1205
+2017-08-07 5:48:09 5323125|main|debug|GenerateChunk|chunk 1198 1195
+2017-08-07 5:48:09 5323125|main|debug|GenerateChunk|chunk 1203 1204
+2017-08-07 5:48:09 5323125|main|debug|GenerateChunk|chunk 1203 1196
+2017-08-07 5:48:09 5323125|main|debug|GenerateChunk|chunk 1197 1204
+2017-08-07 5:48:09 5323140|main|debug|GenerateChunk|chunk 1197 1196
+2017-08-07 5:48:09 5323140|main|debug|GenerateChunk|chunk 1204 1203
+2017-08-07 5:48:09 5323140|main|debug|GenerateChunk|chunk 1204 1197
+2017-08-07 5:48:09 5323140|main|debug|GenerateChunk|chunk 1196 1203
+2017-08-07 5:48:09 5323140|main|debug|GenerateChunk|chunk 1196 1197
+2017-08-07 5:48:09 5323140|main|debug|GenerateChunk|chunk 1205 1200
+2017-08-07 5:48:09 5323140|main|debug|GenerateChunk|chunk 1195 1200
+2017-08-07 5:48:09 5323140|main|debug|GenerateChunk|chunk 1205 1201
+2017-08-07 5:48:09 5323140|main|debug|GenerateChunk|chunk 1205 1199
+2017-08-07 5:48:09 5323140|main|debug|GenerateChunk|chunk 1195 1201
+2017-08-07 5:48:09 5323140|main|debug|GenerateChunk|chunk 1195 1199
+2017-08-07 5:48:09 5323140|main|debug|GenerateChunk|chunk 1205 1202
+2017-08-07 5:48:09 5323140|main|debug|GenerateChunk|chunk 1205 1198
+2017-08-07 5:48:09 5323140|main|debug|GenerateChunk|chunk 1195 1202
+2017-08-07 5:48:09 5323140|main|debug|GenerateChunk|chunk 1195 1198
+2017-08-07 5:48:09 5323140|main|debug|GenerateChunk|chunk 1200 1206
+2017-08-07 5:48:09 5323140|main|debug|GenerateChunk|chunk 1200 1194
+2017-08-07 5:48:09 5323140|main|debug|GenerateChunk|chunk 1201 1206
+2017-08-07 5:48:09 5323140|main|debug|GenerateChunk|chunk 1201 1194
+2017-08-07 5:48:09 5323140|main|debug|GenerateChunk|chunk 1199 1206
+2017-08-07 5:48:09 5323140|main|debug|GenerateChunk|chunk 1199 1194
+2017-08-07 5:48:09 5323140|main|debug|GenerateChunk|chunk 1202 1206
+2017-08-07 5:48:09 5323140|main|debug|GenerateChunk|chunk 1202 1194
+2017-08-07 5:48:09 5323140|main|debug|GenerateChunk|chunk 1198 1206
+2017-08-07 5:48:09 5323140|main|debug|GenerateChunk|chunk 1198 1194
+2017-08-07 5:48:09 5323140|main|debug|GenerateChunk|chunk 1203 1205
+2017-08-07 5:48:09 5323140|main|debug|GenerateChunk|chunk 1203 1195
+2017-08-07 5:48:09 5323140|main|debug|GenerateChunk|chunk 1197 1205
+2017-08-07 5:48:09 5323140|main|debug|GenerateChunk|chunk 1197 1195
+2017-08-07 5:48:09 5323140|main|debug|GenerateChunk|chunk 1204 1204
+2017-08-07 5:48:09 5323140|main|debug|GenerateChunk|chunk 1204 1196
+2017-08-07 5:48:09 5323140|main|debug|GenerateChunk|chunk 1196 1204
+2017-08-07 5:48:09 5323140|main|debug|GenerateChunk|chunk 1196 1196
+2017-08-07 5:48:09 5323140|main|debug|GenerateChunk|chunk 1205 1203
+2017-08-07 5:48:09 5323140|main|debug|GenerateChunk|chunk 1205 1197
+2017-08-07 5:48:09 5323140|main|debug|GenerateChunk|chunk 1195 1203
+2017-08-07 5:48:09 5323156|main|debug|GenerateChunk|chunk 1195 1197
+2017-08-07 5:48:09 5323156|main|debug|GenerateChunk|chunk 1206 1200
+2017-08-07 5:48:09 5323156|main|debug|GenerateChunk|chunk 1194 1200
+2017-08-07 5:48:09 5323156|main|debug|GenerateChunk|chunk 1206 1201
+2017-08-07 5:48:09 5323156|main|debug|GenerateChunk|chunk 1206 1199
+2017-08-07 5:48:09 5323156|main|debug|GenerateChunk|chunk 1194 1201
+2017-08-07 5:48:09 5323156|main|debug|GenerateChunk|chunk 1194 1199
+2017-08-07 5:48:09 5323156|main|debug|GenerateChunk|chunk 1206 1202
+2017-08-07 5:48:09 5323156|main|debug|GenerateChunk|chunk 1206 1198
+2017-08-07 5:48:09 5323156|main|debug|GenerateChunk|chunk 1194 1202
+2017-08-07 5:48:09 5323156|main|debug|GenerateChunk|chunk 1194 1198
+2017-08-07 5:48:09 5323156|main|debug|GenerateChunk|chunk 1200 1207
+2017-08-07 5:48:09 5323156|main|debug|GenerateChunk|chunk 1200 1193
+2017-08-07 5:48:09 5323156|main|debug|GenerateChunk|chunk 1201 1207
+2017-08-07 5:48:09 5323156|main|debug|GenerateChunk|chunk 1201 1193
+2017-08-07 5:48:09 5323156|main|debug|GenerateChunk|chunk 1199 1207
+2017-08-07 5:48:09 5323156|main|debug|GenerateChunk|chunk 1199 1193
+2017-08-07 5:48:09 5323156|main|debug|GenerateChunk|chunk 1202 1207
+2017-08-07 5:48:09 5323156|main|debug|GenerateChunk|chunk 1202 1193
+2017-08-07 5:48:09 5323156|main|debug|GenerateChunk|chunk 1198 1207
+2017-08-07 5:48:09 5323156|main|debug|GenerateChunk|chunk 1198 1193
+2017-08-07 5:48:09 5323156|main|debug|GenerateChunk|chunk 1203 1206
+2017-08-07 5:48:09 5323156|main|debug|GenerateChunk|chunk 1203 1194
+2017-08-07 5:48:09 5323156|main|debug|GenerateChunk|chunk 1197 1206
+2017-08-07 5:48:09 5323156|main|debug|GenerateChunk|chunk 1197 1194
+2017-08-07 5:48:09 5323156|main|debug|GenerateChunk|chunk 1204 1205
+2017-08-07 5:48:09 5323156|main|debug|GenerateChunk|chunk 1204 1195
+2017-08-07 5:48:09 5323156|main|debug|GenerateChunk|chunk 1196 1205
+2017-08-07 5:48:09 5323156|main|debug|GenerateChunk|chunk 1196 1195
+2017-08-07 5:48:09 5323156|main|debug|GenerateChunk|chunk 1204 1206
+2017-08-07 5:48:09 5323156|main|debug|GenerateChunk|chunk 1204 1194
+2017-08-07 5:48:09 5323156|main|debug|GenerateChunk|chunk 1196 1206
+2017-08-07 5:48:09 5323156|main|debug|GenerateChunk|chunk 1196 1194
+2017-08-07 5:48:09 5323156|main|debug|GenerateChunk|chunk 1205 1204
+2017-08-07 5:48:09 5323171|main|debug|GenerateChunk|chunk 1205 1196
+2017-08-07 5:48:09 5323171|main|debug|GenerateChunk|chunk 1195 1204
+2017-08-07 5:48:09 5323171|main|debug|GenerateChunk|chunk 1195 1196
+2017-08-07 5:48:09 5323171|main|debug|GenerateChunk|chunk 1205 1205
+2017-08-07 5:48:09 5323171|main|debug|GenerateChunk|chunk 1205 1195
+2017-08-07 5:48:09 5323171|main|debug|GenerateChunk|chunk 1195 1205
+2017-08-07 5:48:09 5323171|main|debug|GenerateChunk|chunk 1195 1195
+2017-08-07 5:48:09 5323171|main|debug|GenerateChunk|chunk 1206 1203
+2017-08-07 5:48:09 5323171|main|debug|GenerateChunk|chunk 1206 1197
+2017-08-07 5:48:09 5323171|main|debug|GenerateChunk|chunk 1194 1203
+2017-08-07 5:48:09 5323171|main|debug|GenerateChunk|chunk 1194 1197
+2017-08-07 5:48:09 5323171|main|debug|GenerateChunk|chunk 1206 1204
+2017-08-07 5:48:09 5323171|main|debug|GenerateChunk|chunk 1206 1196
+2017-08-07 5:48:09 5323171|main|debug|GenerateChunk|chunk 1194 1204
+2017-08-07 5:48:09 5323171|main|debug|GenerateChunk|chunk 1194 1196
+2017-08-07 5:48:09 5323171|main|debug|GenerateChunk|chunk 1207 1200
+2017-08-07 5:48:09 5323171|main|debug|GenerateChunk|chunk 1193 1200
+2017-08-07 5:48:09 5323171|main|debug|GenerateChunk|chunk 1207 1201
+2017-08-07 5:48:09 5323171|main|debug|GenerateChunk|chunk 1207 1199
+2017-08-07 5:48:09 5323171|main|debug|GenerateChunk|chunk 1193 1201
+2017-08-07 5:48:09 5323171|main|debug|GenerateChunk|chunk 1193 1199
+2017-08-07 5:48:09 5323171|main|debug|GenerateChunk|chunk 1207 1202
+2017-08-07 5:48:09 5323171|main|debug|GenerateChunk|chunk 1207 1198
+2017-08-07 5:48:09 5323171|main|debug|GenerateChunk|chunk 1193 1202
+2017-08-07 5:48:09 5323171|main|debug|GenerateChunk|chunk 1193 1198
+2017-08-07 5:48:09 5323171|main|debug|GenerateChunk|chunk 1207 1203
+2017-08-07 5:48:09 5323171|main|debug|GenerateChunk|chunk 1207 1197
+2017-08-07 5:48:09 5323171|main|debug|GenerateChunk|chunk 1193 1203
+2017-08-07 5:48:09 5323171|main|debug|GenerateChunk|chunk 1193 1197
+2017-08-07 5:48:09 5323171|main|system|BlockEngine|loading block region 37 37
+2017-08-07 5:48:09 5323390|main|info|AutoFindVerticalPosition|player is spawned at highest solid block: 19200 5 19200
+window frame object not found in WindowFrame.ZOrderFrame
+2017-08-07 5:48:14 5327312||debug|audio|Audio source: grass2 added to play list
+2017-08-07 5:48:14 5327453||debug|audio|Audio source: break2 added to play list
+info: Object container automatically created for class: CBlockPieceParticle 
+2017-08-07 5:48:19 5332296||system|ClickToContinue|app lost focus and click to continue is shown
+2017-08-07 5:48:22 5335156||system|ClickToContinue|app focus gain and click to continue is hidden
+2017-08-07 5:48:23 5336265||system|ClickToContinue|app lost focus and click to continue is shown
+2017-08-07 5:55:18 5751765||system|ClickToContinue|app focus gain and click to continue is hidden
+program exited with code 0
+Default window thread exit
+NPL State main exited
+sql db closed: Database/creator_profile.db
+sql db closed: Database/userdata.db
+sql db closed: Database/apps.db
+		NPL thread local memory allocator released 6946816 bytes
+CAsyncLoader worker thread 0 of 6 is exited
+CAsyncLoader worker thread 1 of 6 is exited
+CAsyncLoader worker thread 2 of 6 is exited
+CAsyncLoader worker thread 3 of 6 is exited
+CAsyncLoader worker thread 4 of 6 is exited
+CAsyncLoader worker thread 5 of 6 is exited
+CAsyncLoader IO thread is exited
+warning: in ParaEngine::CFileSystemWatcher::FileHandler. msg is ÓÉÓÚÏß³ÌÍË³ö»òÓ¦ÓÃ³ÌÐòÇëÇó£¬ÒÑÖÐÖ¹ I/O ²Ù×÷¡£
+FileSystemWatcher removed
